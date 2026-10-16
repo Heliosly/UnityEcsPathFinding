@@ -1,0 +1,338 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!511636476 &1
+ClothSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 4
+  m_GlobalEnabled: 1
+  m_UseClothSkinning: 0
+  m_UseSmoothDeltaTime: 0
+  m_UseFixedDeltaTimeForForce: 1
+  m_MaxFPS: 120
+  m_FadeTime: 0.1
+  m_WindType: 5
+  m_WindDrag: 0.9
+  m_WindLift: 0.8
+  m_WindForceScale: 0.1
+  m_ClothVisibleDistance: 20
+  m_ClothMaxVisibleDistance: 3.4028235e+38
+  m_ClothLodThresholds: {x: 1, y: 1, z: 1, w: 1}
+  m_GlobalGravity: {x: 0, y: -9.81, z: 0}
+  m_GlobalWindVelocity: {x: 0, y: 0, z: 0}
+  m_GlobalWindScaled: 1
+  m_RelativeWindScale: 1
+  m_WorldWindSuppressorFactor: 1
+  m_AirDensity: 1
+  m_MaxRelativeWind: 20
+  m_SimulateMaxDelta: 0.15
+  m_MaxParticlesVelocityScale: 1.5
+  m_MaxLinearVelocityScale: 2
+  m_UseAerodynamicContactsPrecondition: 0
+  m_UseGeometryJobUpload: 1
+  m_UseAdditionalSolver: 1
+  m_UseHighPerformanceMode: 0
+  m_UseNativeWindSampler: 0
+  m_UseFixedUpdate: 1
+  m_EnableCollisionDetectionInAdditionalPass: 1
+  m_EnableAdaptiveConstraint: 1
+  m_MaxIterationCount: 8
+  m_MaxSolverFrequency: 120
+  m_SolverWorkerThreadsRemain: 0
+  m_AdditionalSolverWorkerThreadsRemain: 1
+  m_AdditionalSolverIterationScale: 1
+  m_XPBDTargetFPS: 30
+  m_SleepThreshold: 0.01
+  m_AwakeTranslateThreshold: 0.1
+  m_AwakeRotataionThreshold: 10
+  m_AwakeMotionConstraintThreshold: 0.1
+  m_MotionConstraintScale: 1
+  m_MaxDeformBlendSetsForEditorChecking: 256
+  m_SaveSkinningData: 0
+  m_CheckParticles: 0
+  m_ShowWholeCapsuleInsteadOfSpherePair: 0
+  m_CheckParticlesDistance: 0
+  m_SelectionMaterial: {fileID: 0}
+  m_VertexColorMaterial: {fileID: 0}
+  m_DeformAssetDefaultSuffix: _clothdef
+  m_PhysicsAssetDefaultSuffix: _cloth
+  m_AssetDefaultFolderRelativePath: 
+  m_PresetPhysicsMaterials:
+  - serializedVersion: 6
+    name: Silk
+    StretchStiffnessV: 0.5
+    StretchStiffnessH: 0.5
+    BendingStiffness: 0.1
+    ShearingStiffness: 0.99
+    CustomStiffness: 0.5
+    TriangleBendingStiffness: 0.05
+    UnilateralStiffnessScale: 1
+    UnilateralStiffnessBias: 0
+    StiffnessMultiplier: 0.1
+    StretchLimit: 1
+    CompressionLimit: 1
+    MotionConstraintStiffness: 1
+    MotionConstraintScale: 1
+    MotionConstraintBias: 0
+    ShapeKeepingMotionFadingRatio: 0
+    MotionRadiusBeSolidThresholdInShapeKeeping: 0.05
+    ShapeKeepingStiffness: 0.001
+    ShapeKeepingGravityScale: 0.5
+    AnimDriveStiffness: 0
+    AnimDriveDamping: 0
+    SurfacePenetrationScale: 1
+    SurfaceCurvatureScale: 1
+    ThicknessScale: 1
+    ColliderMask: -1
+    UseTethers: 1
+    UseMotionTetherLength: 0
+    TetherStiffness: 0.99
+    TetherConstraintScale: 1
+    Damping: 0.1
+    Softness: 10
+    SleepThresholdScale: 1
+    InertiaScale: 1
+    MaxInertiaAcceleration: 200
+    SolveInGlobalSpace: 0
+    UseMaterialInertia: 0
+    WorldLinearInertia: {x: 1, y: 1, z: 1}
+    WorldAngularInertia: 1
+    WorldCentrifugalInertia: 1
+    UseTeleportResistance: 1
+    WorldSpaceSimulationRatio: 0
+    LinearDrag: 0
+    AngularDrag: 0
+    GravityScale: 1
+    WindVelocityScale: 1
+    UseRelativeWindScaleInSolverSpace: 1
+    RelativeWindScale: 1
+    WindLocalSpaceScalePosXYZ: {x: 1, y: 1, z: 1}
+    WindLocalSpaceScaleNegXYZ: {x: 1, y: 1, z: 1}
+    TbWaveStrength: 1
+    CustomForceScale: 1
+    ExternalForce: {x: 0, y: 0, z: 0}
+    LocalWind: {x: 0, y: 0, z: 0}
+    WindType: 8
+    WindSource: 1
+    ShapePreserveWeightScale: 0
+    ProjectSpecificProperty: {x: 0, y: 0, z: 0, w: 0}
+  - serializedVersion: 6
+    name: Leather
+    StretchStiffnessV: 0.99
+    StretchStiffnessH: 0.9
+    BendingStiffness: 0.7
+    ShearingStiffness: 1
+    CustomStiffness: 1
+    TriangleBendingStiffness: 1
+    UnilateralStiffnessScale: 1
+    UnilateralStiffnessBias: 0
+    StiffnessMultiplier: 0.1
+    StretchLimit: 1
+    CompressionLimit: 1
+    MotionConstraintStiffness: 1
+    MotionConstraintScale: 1
+    MotionConstraintBias: 0
+    ShapeKeepingMotionFadingRatio: 0
+    MotionRadiusBeSolidThresholdInShapeKeeping: 0.05
+    ShapeKeepingStiffness: 0.001
+    ShapeKeepingGravityScale: 0.5
+    AnimDriveStiffness: 0
+    AnimDriveDamping: 0
+    SurfacePenetrationScale: 1
+    SurfaceCurvatureScale: 1
+    ThicknessScale: 1
+    ColliderMask: -1
+    UseTethers: 1
+    UseMotionTetherLength: 0
+    TetherStiffness: 0.99
+    TetherConstraintScale: 1
+    Damping: 0.3
+    Softness: 1
+    SleepThresholdScale: 1
+    InertiaScale: 1
+    MaxInertiaAcceleration: 200
+    SolveInGlobalSpace: 0
+    UseMaterialInertia: 0
+    WorldLinearInertia: {x: 1, y: 1, z: 1}
+    WorldAngularInertia: 1
+    WorldCentrifugalInertia: 1
+    UseTeleportResistance: 1
+    WorldSpaceSimulationRatio: 0
+    LinearDrag: 0
+    AngularDrag: 0
+    GravityScale: 1
+    WindVelocityScale: 1
+    UseRelativeWindScaleInSolverSpace: 1
+    RelativeWindScale: 1
+    WindLocalSpaceScalePosXYZ: {x: 1, y: 1, z: 1}
+    WindLocalSpaceScaleNegXYZ: {x: 1, y: 1, z: 1}
+    TbWaveStrength: 1
+    CustomForceScale: 1
+    ExternalForce: {x: 0, y: 0, z: 0}
+    LocalWind: {x: 0, y: 0, z: 0}
+    WindType: 8
+    WindSource: 1
+    ShapePreserveWeightScale: 0
+    ProjectSpecificProperty: {x: 0, y: 0, z: 0, w: 0}
+  m_AutoStableColliderThreshold: 1
+  m_AnimationStableColliderThreshold: 1
+  m_TeleportStableColliderThreshold: 0.1
+  m_FixedFrameCountForForce: 60
+  m_AutoClearTransformMotionDistance: 5
+  m_AutoClearTransformMotionAngle: 90
+  m_MaxTriangleOverExtendedFrameCount: 1
+  m_TriangleExtendedScaleThreshold: 16
+  m_DefaultCheckConvexCollisionCount: 1
+  m_DefaultCheckConvexCollisionFrameCount: 1000
+  m_TBFluctuation: 0.5
+  m_TBFluctuationFreq: 0.1
+  m_TBXFreq: 0.1
+  m_TBYFreq: 0.1
+  m_TBIntensityX: 0.5
+  m_TBIntensityY: 0.1
+  m_TBWaveConfigs:
+  - name: middle_poly
+    waves:
+    - waveLength: 0.5
+      amplitude: 9
+      phaseVelocity: 1.1
+      verticalAngle: 0
+      ellipseFactor: 0.5
+    - waveLength: 0.12
+      amplitude: 12
+      phaseVelocity: 0.8
+      verticalAngle: 0
+      ellipseFactor: 0.5
+    - waveLength: 0.3
+      amplitude: 5
+      phaseVelocity: 1.3
+      verticalAngle: 90
+      ellipseFactor: 0.5
+  m_TBWaveLatency: 0.1
+  m_WindTemplates: []
+  m_WindTemplateCurves:
+    curves:
+    - serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    - serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_WindRelativeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 100
+      value: 100
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_WindTBGlobalSlackCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_MaxColliderPerPrimitive: 3
+  m_CollisionDisableAllCCD: 0
+  m_CollisionForceGlobalFastStrategy: 0
+  m_ConvexCollisionUsePredictSolveMode: 0
+  m_CollisionDefaultFastStrategy: 0
+  m_CollisionDefaultFastStrategyAdaptiveFrame: -1
+  m_MaxColliderDetectionRadius: 0.2
+  m_UsePriorityColliders: 0
+  m_EnableTerrainCollider: 1
+  m_UseRaycastTerrainCollider: 0
+  m_EnableTerrainContact: 1
+  m_TurnOnTerrainColliderByDefault: 1
+  m_EnableTerrainColliderOneShotMode: 0
+  m_TurnOnGlobalColliderByDefault: 1
+  m_TerrainColliderLimitedByMotionConstraint: 1
+  m_TerrainColliderOffsetHeight: 0.02
+  m_TerrainColliderSizeScale: 1.1
+  m_TerrainPruneHeight: 0.2
+  m_TerrainLowestHeight: -5
+  m_InterNumIteration: 4
+  m_InterCollisionType: 0
+  m_InterStaticCollisionRadius: 0.5
+  m_InterCollisionDistance: 0.1
+  m_ColliderPriorityGroupNames:
+  - No Priority
+  - Same Priority
+  m_ColliderPriorityGroups:
+  - priorities:
+    - name: default
+      priority: -1
+      pinchRadius: 0.02
+  - priorities:
+    - name: default
+      priority: 0
+      pinchRadius: 0.02
+  m_ColliderPriorityCache:
+  - name: default
+    priority: -1
+    pinchRadius: 0.02
+  m_PriorityJointAngleThreshold: 60
+  m_MaxParticlesInstanceInScene: 20000
+  m_ParticlesInstanceCountScale: 1
+  m_MaxActivateParticlesRatio: 1
+  m_Data:
+    m_TargetSolveFrequency: 30
+    m_GlobalWorldLinearInertia: {x: 0.5, y: 0.5, z: 0.5}
+    m_GlobalWorldAngularInertia: 1
+    m_GlobalWorldCentrifugalInertia: 0.3
+    m_EncloseTightenningBeginTime: 1
+    m_EncloseTestSkipMotionThreshold: 0.05
+    m_EncloseTightenningLastTime: 1
+    m_EncloseStableThreshold: 0.1
+    m_MaxEncloseStableCount: 0
+    m_EncloseStableCountExpirationTime: 20
+    m_ShapeKeepingPlayerVelocityAverageWindowSize: 30
+    m_ShapeKeepingPlayerVelocityLowerThreshold: 0.02
+    m_ShapeKeepingPlayerVelocityUpperThreshold: 0.05
+    m_ShapeKeepingWindVelocityLowerThreshold: 0.8
+    m_ShapeKeepingWindVelocityUpperThreshold: 1.6
+    m_ComponentEvents: []
+    m_GlobalEvents: []
+  m_EditorData:
+    m_ColliderLowlightColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    m_ColliderHighlightColor: {r: 0.3, g: 1, b: 0.1, a: 1}
+    m_ClothWholeCapsulePreset: []
+  m_DeformSetupProxyTrianglesShader: {fileID: 0}
+  m_DeformVertexToTriangleMappingsShader: {fileID: 0}

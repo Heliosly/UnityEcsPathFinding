@@ -1,0 +1,17 @@
+# Unity 生成目录（体积巨大，不入库）
+Library/
+Temp/
+obj/
+Logs/
+UserSettings/
+
+# IDE / 工具生成文件
+*.csproj
+*.sln
+.vs/
+.idea/
+Assets/.VSCodeCounter/
+
+# 注意：ProjectSettings/ 不再忽略。
+# Layers/Tags（TagManager.asset）、物理层矩阵、质量档、Graphics 等工程配置是"复现这个工程"的必需项，
+# 而且体积只有百 KB 级 —— 备份必须带上它（原作者仓库忽略了它，导致 clone 出来层/标签对不上）。

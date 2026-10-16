@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!706258366 &1
+WarpModuleSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_HeightFieldCellPerChunkX: 2
+  m_HeightFieldCellPerChunkZ: 2
+  m_HeightFieldMaxChunksCount: 1000
+  m_HeightFieldChunkSizeX: 2
+  m_HeightFieldChunkSizeZ: 2
+  m_HeightFieldMaxDistance: 100
+  m_HeightFieldLayerMasks: 0c0000001c000000
+  m_IgnoreTimeDiscontinueThreshold: 1.25
+  m_TransientForceFieldTypes: []
+  m_BoneNames:
+  - default
+  m_BodypartNames:
+  - all
+  m_BodypartBoneMasks: ffffffffffffffff
+  m_Tags: []
+  m_UnitModeForEditor: 0
+  m_GizmoDrawColliderBias: 0
+  m_GizmoDrawWireframe: 0
+  m_GizmoMeshAlpha: 0.5
+  m_GizmoCircleSubdivision: 20
+  m_GizmoSphereSubdivision: 2
+  m_GizmoHighlightColor: {r: 0.3, g: 1, b: 0.1, a: 1}
+  m_GizmoLowlightColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  m_FallbackTerrainType: 1
+  m_OneshotTerrainClearFrameCount: 10
+  m_InteractiveCollidersSearchRadius: 1
+  m_PlayerBelowTerrainSkipUpperThreshold: -0.05
+  m_PlayerBelowTerrainSkipLowerThreshold: -0.1
+  m_UseFallbackTerrain: 0
+  m_UseInteractiveColliders: 0
+  m_SkipIfPlayerBelowTerrain: 0
+  m_LowerFixedUpdateFrame: 30
+  m_UpperFixedUpdateFrame: 120
+  m_UpperFixedUpdateFrameBound: 150
+  m_TurbulenceSettings:
+  - m_WindScale: 0
+    m_Fluctuation: 0
+    m_FluctuationFrequency: 0
+    m_TurbulenceHorizontalFrequency: 0
+    m_TurbulenceVerticalFrequency: 0
+    m_TurbulenceHorizontalIntensity: 0
+    m_TurbulenceVerticalIntensity: 0
+  m_AccumulateVertexNormalsShader: {fileID: 0}
